@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def main(total_length, target_num, target_delta = 1, verbose=False):
+def main(total_length, target_num, target_delta=1, verbose=False):
     np.random.seed(15)
 
     noise_num = total_length - target_num

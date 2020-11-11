@@ -22,8 +22,8 @@ TARGET_DELTA = 1.5
 def main(total_length, target_num, block_num=10, verbose=False, visual=True):
     # 노이즈 생성
     t = np.linspace(0, 10 * np.pi, total_length)
-    # raw_noise = 0.5 * np.sin(t) + NOISE_DELTA
-    raw_noise = 0.25 * np.sin(t) + 0.25 * np.sin(2 * t) + NOISE_DELTA
+    raw_noise = 0.5 * np.sin(t) + NOISE_DELTA
+    # raw_noise = 0.25 * np.sin(t) + 0.25 * np.sin(2 * t) + NOISE_DELTA
     # raw_noise = 0.25 * np.sin(t) + 0.15 * np.sin(2 * t) + 0.1 * np.sin(3 * t) + NOISE_DELTA
     noisy_voice = raw_noise
 
